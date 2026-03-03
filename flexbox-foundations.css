@@ -49,3 +49,10 @@ body {
 Deves e precisas.
 O Flexbox cuida do Alinhamento Coletivo (Manda todos para a direita, para o centro, ou coloca-os em fila).
 O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da borda e respiro do texto). */
+
+/* Vamos praticar o Flex  parte 2*/
+
+.pai {
+    display: flex;
+    background-color: #333;
+}

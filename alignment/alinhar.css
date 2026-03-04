@@ -30,6 +30,10 @@ body {
 
     /* para centralizar*/
     align-items: center;
+
+    /* esta propriedade e nova, mas e boa, e o mesmo que dar margin aos items, ela da brecha */
+    gap: 8px;
+
 }
 
 /* vamos dar aos itens */

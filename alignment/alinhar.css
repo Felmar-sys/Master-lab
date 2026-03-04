@@ -1,0 +1,9 @@
+/* aula de alinhamento do flexbox */
+
+
+/* sempre, a primeira pedra no css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

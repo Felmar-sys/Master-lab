@@ -110,6 +110,7 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 
 /* vamos mexer em cada um dentro do lateral */
 
+/* vamos agrupar oque e comum */
 .lado, .b {
 
     background-color: #76a3b1;
@@ -135,4 +136,16 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 .b {
     display: flex;
     padding: 20px;
+}
+
+/* vamos especificar os filhos do b */
+
+.lado-2, .lado-3 {
+    flex: 1;
+    border: 2px solid #ffffff;
+    margin: 10px;
+    background-color: #8ee22d;
+    height: 80%;
+    justify-items: center;
+    justify-content: center;
 }
